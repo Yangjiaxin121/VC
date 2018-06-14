@@ -1,0 +1,344 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\银行y.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\银行y.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 银行y"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,11,17,20,20
+    LTEXT           "银行y 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2017",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_Y_DIALOG DIALOGEX 0, 0, 281, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "银行y"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,190,128,62,18
+    PUSHBUTTON      "资料",IDC_BUTTON_Ziliao,67,85,59,18
+    PUSHBUTTON      "存款",IDC_BUTTON_Cunkuan,190,85,61,18
+    PUSHBUTTON      "查询余额",IDC_BUTTON_Chaxun,67,127,59,18
+    CTEXT           "亲~欢迎光临小欣银行管理系统(=^_^=)",IDC_STATIC,41,27,
+                    188,14,SS_NOPREFIX | SS_CENTERIMAGE
+    LTEXT           "亲~请选择所要做的操作:",IDC_STATIC,13,63,92,13
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,29,84,21,21
+    CONTROL         148,IDC_STATIC,"Static",SS_BITMAP,151,84,21,21
+    CONTROL         149,IDC_STATIC,"Static",SS_BITMAP,151,125,21,21
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,29,126,21,21
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 213, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "登录",IDOK,36,108,50,14
+    LTEXT           "用户名:",IDC_STATIC,59,46,27,8
+    LTEXT           "密码:",IDC_STATIC,60,76,19,8
+    EDITTEXT        IDC_EDIT_Name,92,43,63,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Password,92,73,63,14,ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,38,45,12,13
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,37,72,14,16
+    CONTROL         "         欢迎来到小欣银行管理系统~(@^_^@)~",IDC_STATIC,
+                    "Static",SS_LEFTNOWORDWRAP | WS_GROUP,29,19,163,13
+    PUSHBUTTON      "注册",IDC_ZHUCE,106,108,50,14
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 218, 136
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "返回",IDCANCEL,174,116,37,13
+    LTEXT           "账户:",IDC_STATIC,40,34,19,8
+    LTEXT           "密码:",IDC_STATIC,40,58,19,8
+    LTEXT           "姓名:",IDC_STATIC,40,82,19,8
+    LTEXT           "住址:",IDC_STATIC,40,108,19,8
+    EDITTEXT        IDC_Zhanghu,74,32,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Mima,74,55,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_Xingming,74,79,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Zhuzhi,73,106,87,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存",IDC_BAOCUN,174,102,37,13
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,19,32,16,16
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,19,55,14,16
+    CONTROL         144,IDC_STATIC,"Static",SS_BITMAP,19,77,16,16
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,19,103,12,13
+    CTEXT           "亲~欢迎来到资料编辑查询界面 (^ 3 ^)",IDC_STATIC,28,14,
+                    164,10
+END
+
+IDD_DIALOG_CUNKUAN DIALOG DISCARDABLE  0, 0, 211, 137
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "确认",IDC_BUTTON_QUEREN,40,102,43,12
+    PUSHBUTTON      "返回",IDCANCEL,133,102,44,12
+    LTEXT           "请输入要存取的金额:",IDC_STATIC,54,78,75,8
+    EDITTEXT        IDC_EDIT_CUN,144,76,40,14,ES_AUTOHSCROLL
+    LTEXT           "实时余额:",IDC_STATIC,54,55,35,8
+    EDITTEXT        IDC_EDIT_YUE,144,55,40,14,ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         146,IDC_STATIC,"Static",SS_BITMAP,29,53,13,15
+    CONTROL         147,IDC_STATIC,"Static",SS_BITMAP,29,78,11,12
+    CTEXT           "亲~这里是存取钱界面，你懂得$_$",IDC_STATIC,28,20,159,8
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 221, 138
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    PUSHBUTTON      "返回",IDCANCEL,174,116,37,13
+    LTEXT           "账户:",IDC_STATIC,40,34,19,8
+    LTEXT           "密码:",IDC_STATIC,40,58,19,8
+    LTEXT           "姓名:",IDC_STATIC,40,82,19,8
+    LTEXT           "住址:",IDC_STATIC,40,108,19,8
+    EDITTEXT        IDC_Zhanghu,74,32,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Mima,74,55,85,14,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_Xingming,74,79,86,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Zhuzhi,73,106,87,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "保存",IDC_BAOCUN,174,102,37,13
+    CONTROL         145,IDC_STATIC,"Static",SS_BITMAP,19,32,16,16
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,19,55,14,16
+    CONTROL         144,IDC_STATIC,"Static",SS_BITMAP,19,77,16,16
+    CONTROL         138,IDC_STATIC,"Static",SS_BITMAP,19,103,12,13
+    CTEXT           "亲~欢迎来到注册界面 (^ 3 ^)",IDC_STATIC,28,14,164,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "银行y Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "银行y\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "银行y.EXE\0"
+            VALUE "ProductName", "银行y 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_Y_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 274
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 206
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 129
+    END
+
+    IDD_DIALOG_CUNKUAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 204
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 130
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\密码.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\denglu.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\账户.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "res\\bitmap4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "res\\背景.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "res\\bitmap6.bmp"
+IDB_BITMAP7             BITMAP  DISCARDABLE     "res\\马云.bmp"
+IDB_BITMAP8             BITMAP  DISCARDABLE     "res\\大背景.bmp"
+IDB_zhanghu             BITMAP  DISCARDABLE     "res\\zhanghu.bmp"
+IDB_BITMAP9             BITMAP  DISCARDABLE     "res\\00.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\余额.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\1.bmp"
+IDB_BITMAP12            BITMAP  DISCARDABLE     "res\\cun.bmp"
+IDB_BITMAP13            BITMAP  DISCARDABLE     "res\\2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 银行y(&A)..."
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\银行y.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

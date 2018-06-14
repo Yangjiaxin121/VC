@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 银行y - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\CHRIST~1\AppData\Local\Temp\RSPD65A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/银行y.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\上机\VC++\银行y2\DengLu.cpp"
+"D:\上机\VC++\银行y2\SAVE.cpp"
+"D:\上机\VC++\银行y2\Ziliao.cpp"
+"D:\上机\VC++\银行y2\银行yDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\CHRIST~1\AppData\Local\Temp\RSPD65A.tmp" 
+Creating temporary file "C:\Users\CHRIST~1\AppData\Local\Temp\RSPD65B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/银行y.pdb" /debug /machine:I386 /out:"Debug/银行y.exe" /pdbtype:sept 
+".\Debug\DengLu.obj"
+".\Debug\SAVE.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Zhuce.obj"
+".\Debug\Ziliao.obj"
+".\Debug\银行y.obj"
+".\Debug\银行yDlg.obj"
+".\Debug\银行y.res"
+]
+Creating command line "link.exe @C:\Users\CHRIST~1\AppData\Local\Temp\RSPD65B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DengLu.cpp
+SAVE.cpp
+Ziliao.cpp
+银行yDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+银行y.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
